@@ -6,7 +6,7 @@ import './css/ResultClub.css';
 class ResultClub extends Component {
   render() {
     return (
-        <div className='container'>
+        <div className='resultcontainer'>
           <div className="club-name">
             {this.props.name}
           </div>
