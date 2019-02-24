@@ -1,0 +1,17 @@
+﻿[
+      {
+            "name": "Italian club",
+            "tags": "pasta, food, eating, italian",
+            "description": "we are italian!"
+      },
+      {
+            "name": "Young club",
+            "tags": "youth, young, party",
+            "description": "we are young!"
+      },
+      {
+            "name": "Old club",
+            "tags": "golf, old, wine tasting",
+            "description": "we are old."
+      }
+]
