@@ -1,7 +1,10 @@
+/*font imports*/
 @font-face {
-  font-family: 'Poppins-Regular';
-  src: local('Poppins-Regular'), url(../assets/Poppins/Poppins-Regular.tff) format('tff');
+  font-family: 'PoppinsRegular';
+  src: local('PoppinsRegular'), url(../assets/PoppinsRegular.ttf) format('tff');
 }
+
+
 .container{
   display: flex;
   flex-direction: column;
@@ -18,10 +21,23 @@
   transform: translate(0, -70%);
   font-size: 60px;
   font-family: 'Poppins-Regular', sans-serif;
+  color: rgba(255, 64, 81, 0.71);
 }
 
 .searchbar{
   position: absolute;
-  top: 60%;
-  transform: translate(0, -40%);
+  top: 45%;
+  transform: translate(0, -55%);
+}
+
+.inputform{
+  width: 400px;
+  height: 36px;
+   border: 2px solid white;
+   background-color: rgb(235, 235, 235);
+   border-radius: 40px;
+}
+
+.searchbutton{
+
 }

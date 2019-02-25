@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import ResultClub from './ResultClub';
 import './css/Root.css';
+import { Link } from 'react-router';
 
 class Root extends Component {
 
@@ -51,11 +52,11 @@ class Root extends Component {
   render() {
     return (
       <div className="container">
-        <h2 className="title">hello from react</h2>
+        <h2 className="title">Radar</h2>
         <div className="searchbar">
             <form action="/search">
-              <input type="text" value={this.state.userInput} onChange={this.handleChange} placeholder="Search..." name="query" id="userText"/>
-              <button type="submit" onClick={this.handleSubmit}><i>Search</i></button>
+              <input className="inputform" type="text" value={this.state.userInput} onChange={this.handleChange} placeholder="       Search..." name="query" id="userText"/>
+              <button className="searchbutton" type="submit" onClick={this.handleSubmit}><i><Link to="/search">Search</Link></i></button>
             </form>
         </div>
           <div className="results-container">
