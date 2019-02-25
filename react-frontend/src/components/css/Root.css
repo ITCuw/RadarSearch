@@ -1,0 +1,43 @@
+/*font imports*/
+@font-face {
+  font-family: 'PoppinsRegular';
+  src: local('PoppinsRegular'), url(../assets/PoppinsRegular.ttf) format('tff');
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.title{
+  position: absolute;
+  top: 30%;
+  transform: translate(0, -70%);
+  font-size: 60px;
+  font-family: 'Poppins-Regular', sans-serif;
+  color: rgba(255, 64, 81, 0.71);
+}
+
+.searchbar{
+  position: absolute;
+  top: 45%;
+  transform: translate(0, -55%);
+}
+
+.inputform{
+  width: 400px;
+  height: 36px;
+   border: 2px solid white;
+   background-color: rgb(235, 235, 235);
+   border-radius: 40px;
+}
+
+.searchbutton{
+
+}
