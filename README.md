@@ -1,5 +1,5 @@
-ElasticSearch engine running on compose n/
-React + Node + ElasticSearch n/
+ElasticSearch engine running on compose /n
+React + Node + ElasticSearch /n
 
 ES Client: localhost:9200 n/
 Kibana: localhost:5601 n/
